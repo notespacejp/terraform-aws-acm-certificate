@@ -38,9 +38,9 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_add_domain_name_list"></a> [add\_domain\_name\_list](#input\_add\_domain\_name\_list) | additional domain name | `list(string)` | `[]` | no |
-| <a name="input_add_verification_records"></a> [add\_verification\_records](#input\_add\_verification\_records) | add verification records for route53 | `bool` | `true` | no |
+| <a name="input_add_verification_records"></a> [add\_verification\_records](#input\_add\_verification\_records) | add verification records for route53 | `bool` | `false` | no |
 | <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | create domain name | `string` | n/a | yes |
-| <a name="input_zone_id"></a> [zone\_id](#input\_zone\_id) | route53 zone id | `optional(string)` | n/a | yes |
+| <a name="input_zone_id"></a> [zone\_id](#input\_zone\_id) | route53 zone id | `string` | `null` | no |
 
 ## Outputs
 
