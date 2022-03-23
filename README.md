@@ -7,6 +7,12 @@ This module is easy create AWS ACM.
 terraform-docs markdown --output-file README.md .
 ```
 
+## Test
+```shell
+cd test
+go test -v -run <test function name>
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
