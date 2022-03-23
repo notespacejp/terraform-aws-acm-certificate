@@ -13,11 +13,3 @@ module "acm" {
   }
   domain_name = "notespace.test"
 }
-
-output "arn" {
-  value = module.acm.arn
-}
-
-output "validation_option" {
-  value = module.acm.validation_option
-}
