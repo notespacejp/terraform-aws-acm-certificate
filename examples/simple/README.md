@@ -26,5 +26,5 @@ No inputs.
 | Name | Description |
 |------|-------------|
 | <a name="output_arn"></a> [arn](#output\_arn) | n/a |
-| <a name="output_validation_option"></a> [validation\_option](#output\_validation\_option) | n/a |
+| <a name="output_validation_record"></a> [validation\_record](#output\_validation\_record) | n/a |
 <!-- END_TF_DOCS -->

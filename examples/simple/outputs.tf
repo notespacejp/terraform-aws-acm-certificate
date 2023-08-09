@@ -2,6 +2,6 @@ output "arn" {
   value = module.acm.arn
 }
 
-output "validation_option" {
-  value = module.acm.validation_option
+output "validation_record" {
+  value = module.acm.validation_record
 }
